@@ -10,8 +10,8 @@ html{
 
 body{
     font-family:'Poppins', sans-serif;
-    background:#f4f7fb;
-    color:#1e293b;
+    background:white;
+    color:black;
     line-height:1.8;
 }
 
@@ -46,7 +46,7 @@ nav ul{
 
 nav a{
     text-decoration:none;
-    color:#1e293b;
+    color:black;
     font-weight:500;
     transition:0.3s;
 }
@@ -78,18 +78,18 @@ nav a:hover{
     border-radius:50%;
     margin-bottom:40px;
     border:6px solid #2563eb;
-    box-shadow:0 10px 30px rgba(37,99,235,0.2);
+    box-shadow:0 10px 30px rgba(37,99,235,0.15);
 }
 
 .hero-text h3{
     font-size:3rem;
     margin-bottom:30px;
-    color:#0f172a;
+    color:black;
 }
 
 .hero-text p{
     font-size:1.05rem;
-    color:#475569;
+    color:black;
     text-align:justify;
     max-width:850px;
 }
@@ -112,14 +112,14 @@ nav a:hover{
 .contact h2{
     font-size:2.2rem;
     margin-bottom:30px;
-    color:#0f172a;
+    color:black;
 }
 
 .about p,
 .contact p{
     max-width:850px;
     margin:auto;
-    color:#475569;
+    color:black;
     font-size:1.05rem;
 }
 
@@ -136,12 +136,13 @@ nav a:hover{
 }
 
 .skills span{
-    background:white;
+    background:#f8fafc;
     padding:12px 22px;
     border-radius:30px;
     font-weight:500;
     box-shadow:0 4px 10px rgba(0,0,0,0.05);
     transition:0.3s;
+    color:black;
 }
 
 .skills span:hover{
@@ -162,7 +163,7 @@ nav a:hover{
 }
 
 .card{
-    background:white;
+    background:#f8fafc;
     padding:35px;
     border-radius:20px;
     box-shadow:0 8px 25px rgba(0,0,0,0.05);
@@ -180,7 +181,7 @@ nav a:hover{
 }
 
 .card p{
-    color:#475569;
+    color:black;
 }
 
 /* =========================
@@ -212,11 +213,12 @@ nav a:hover{
 ========================= */
 
 footer{
-    background:#0f172a;
-    color:white;
+    background:#f8fafc;
+    color:black;
     text-align:center;
     padding:30px;
     margin-top:40px;
+    border-top:1px solid #e2e8f0;
 }
 
 /* =========================
