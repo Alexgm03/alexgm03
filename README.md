@@ -8,12 +8,6 @@ I'm a Computer Science student at **Escuela Politécnica Nacional**, interested 
 
 C · Java · Python · Linux · Git · GitHub · SQL · Networking
 
-### 🚀 Featured Projects
-
-* 📡 **[Hamming Data Transmission Simulator](https://github.com/Alexgm03/Hamming-Data-Transmission-Simulator)** — Java · Hamming (7,4)
-* 🖥️ **[POSIX Inter-Process Communication](https://github.com/Alexgm03/POSIX-Inter-Process-Communication)** — C · Linux · POSIX
-* 🐧 **[Mini Shell](https://github.com/Alexgm03/Mini-Shell)** — C · Linux
-
 ### 🌐 Portfolio
 
 [Visit my personal portfolio →](#)
