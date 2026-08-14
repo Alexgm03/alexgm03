@@ -10,7 +10,7 @@ C · Java · Python · Linux · Git · GitHub · SQL · Networking
 
 ### 🌐 Portfolio
 
-[Visit my personal portfolio →](#)
+[Visit my personal portfolio →]https://alexgm03.github.io/alexgm03/
 
 ---
 
