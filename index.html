@@ -1,114 +1,227 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gregory A. Mena</title>
+
+    <title>Gregory Mena | Computer Science Student</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+    <!-- Navigation -->
     <header>
         <nav>
-
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre">Skills</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#sobre">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#proyectos">Projects</a></li>
+                <li><a href="#contacto">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+
+    <!-- Hero -->
     <section class="hero" id="inicio">
 
-        <div class="hero-text">
-            <h3>Gregory A. Mena</h3>
-
-            <p>
-                Estudiante de la Ecuela Politecnica Nacional de la carrera de Ingenieria en ciencias de la computación. 
-                Desde que empecé en este campo, me ha interesado comprender cómo funcionan los sistemas desde dentro, tanto a nivel de programación 
-                como de redes, lo que me ha llevado a explorar diferentes áreas del mundo tecnológico.<br>
-
-                <br>Me gusta aprender de forma práctica, resolviendo problemas reales y experimentando con herramientas actuales. He trabajado con Python 
-                para desarrollar soluciones básicas y automatizar tareas, y también he adquirido conocimientos en redes, especialmente en configuración 
-                de VLAN, switching y fundamentos de conectividad. Además, utilizo Git y GitHub como herramientas esenciales para el control de versiones 
-                y la organización de proyectos.<br>
-
-                <br>Me considero una persona en constante aprendizaje, con iniciativa para investigar por mi cuenta y mejorar mis habilidades día a día. Disfruto 
-                enfrentando retos técnicos, ya que cada problema representa una oportunidad para crecer y adquirir nuevos conocimientos.
-            </p>
+        <div class="hero-img">
+            <img src="img/perfil.jpeg" alt="Gregory Mena">
         </div>
 
-        <div class="hero-img">
-            <br><img src="img/perfil.jpeg" alt="Foto de perfil">
+        <div class="hero-text">
+
+            <h1>Gregory Mena</h1>
+
+            <h2>Computer Science Student</h2>
+
+            <p>
+                Software Development · Systems · Linux
+            </p>
+
+            <div class="socials">
+
+                <a href="https://github.com/Alexgm03" target="_blank">
+                    GitHub
+                </a>
+
+                <!-- Replace with Gregory's LinkedIn URL -->
+                <a href="#" target="_blank">
+                    LinkedIn
+                </a>
+
+            </div>
+
         </div>
 
     </section>
 
+
+    <!-- About -->
     <section class="about" id="sobre">
 
-        <h2>Skills</h2>
+        <h2>About Me</h2>
 
         <p>
+            I'm a Computer Science student at Escuela Politécnica Nacional
+            interested in software development, systems programming,
+            Linux, and technology.
+        </p>
 
-        Cuento con habilidades en programación en Python a nivel básico-intermedio, 
-        manejo de control de versiones con Git y GitHub, configuración básica de redes 
-        incluyendo VLAN y switching, uso de la terminal tanto en Windows como en Linux, 
-        y conocimientos en desarrollo web con HTML y CSS.
-            
+        <p>
+            I enjoy learning through practical projects, solving technical
+            problems, and continuously developing my programming and
+            software engineering skills.
         </p>
 
     </section>
 
-    <section class="projects" id="proyectos">
 
-        <h2>Mis proyectos</h2>
+    <!-- Skills -->
+    <section class="about" id="skills">
 
-        <div class="cards">
+        <h2>Skills</h2>
 
-            <div class="card">
-                <h3>Proyecto Redes</h3>
+        <div class="skills">
 
-                <p>
-                    Configuración de VLANs y pfSense.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Sistema Bancario</h3>
-
-                <p>
-                    Aplicación Java Swing para operaciones bancarias.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Página Educativa</h3>
-
-                <p>
-                    Sitio web sobre cableado estructurado.
-                </p>
-            </div>
+            <span>C</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>Linux</span>
+            <span>POSIX</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>SQL</span>
+            <span>Networking</span>
+            <span>HTML</span>
+            <span>CSS</span>
 
         </div>
 
     </section>
 
-    <section class="contact" id="contacto">
 
-        <h2>Contacto</h2>
+    <!-- Projects -->
+    <section class="projects" id="proyectos">
 
-        <p>Email: gregory.mena@epn.edu.ec</p>
-        <p>Telefono: 0984389699</p>
+        <h2>Featured Projects</h2>
+
+        <div class="cards">
+
+
+            <!-- Hamming -->
+            <div class="card">
+
+                <h3>📡 Hamming Data Transmission Simulator</h3>
+
+                <p>
+                    Java application that simulates data transmission
+                    using the Hamming (7,4) error-correction algorithm,
+                    including error detection and correction.
+                </p>
+
+                <p>
+                    <strong>Java · Swing · Hamming (7,4)</strong>
+                </p>
+
+                <a href="https://github.com/Alexgm03/Hamming-Data-Transmission-Simulator"
+                   target="_blank">
+                    View on GitHub →
+                </a>
+
+            </div>
+
+
+            <!-- POSIX IPC -->
+            <div class="card">
+
+                <h3>🖥️ POSIX Inter-Process Communication</h3>
+
+                <p>
+                    C project developed for Linux exploring different
+                    POSIX mechanisms for inter-process communication.
+                </p>
+
+                <p>
+                    <strong>C · Linux · POSIX · Processes</strong>
+                </p>
+
+                <a href="https://github.com/Alexgm03/POSIX-Inter-Process-Communication"
+                   target="_blank">
+                    View on GitHub →
+                </a>
+
+            </div>
+
+
+            <!-- Mini Shell -->
+            <div class="card">
+
+                <h3>🐧 Mini Shell</h3>
+
+                <p>
+                    A basic Linux shell developed in C to practice
+                    process management, system calls, and command execution.
+                </p>
+
+                <p>
+                    <strong>C · Linux · System Calls</strong>
+                </p>
+
+                <a href="https://github.com/Alexgm03/Mini-Shell"
+                   target="_blank">
+                    View on GitHub →
+                </a>
+
+            </div>
+
+
+        </div>
 
     </section>
 
+
+    <!-- Contact -->
+    <section class="contact" id="contacto">
+
+        <h2>Contact</h2>
+
+        <p>
+            Interested in connecting or discussing a project?
+        </p>
+
+        <div class="socials">
+
+            <a href="mailto:gregory.mena@epn.edu.ec">
+                Email
+            </a>
+
+            <a href="https://github.com/Alexgm03" target="_blank">
+                GitHub
+            </a>
+
+            <!-- Replace with Gregory's LinkedIn URL -->
+            <a href="#" target="_blank">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
     <footer>
-        <p>© 2026 Gregory Mena</p>
+
+        <p>
+            © 2026 Gregory Mena
+        </p>
+
     </footer>
 
 </body>
